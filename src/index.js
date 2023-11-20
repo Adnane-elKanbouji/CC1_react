@@ -9,7 +9,7 @@ import ThemeContextProvider from './Dark_Mode/ThemeContext';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <ThemeContextProvider>
-  <BrowserRouter>
+  <BrowserRouter basename='/CC1_react'>
   <App />
   </BrowserRouter>
  </ThemeContextProvider>
